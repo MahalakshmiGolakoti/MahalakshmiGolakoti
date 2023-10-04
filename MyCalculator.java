@@ -53,7 +53,7 @@ y=TOPY+2*(HEIGHT+V_SPACE);
 for(int i=0; i<memoryButton.length; i++)
 {
 memoryButton[i]=new MyMemoryButton(tempX,y,WIDTH,HEIGHT,memoryButtonText[i], this);
-memoryButton[i].setForeground(Color.RED);
+memoryButton[i].setForeground(Color.PINK);
 y+=HEIGHT+V_SPACE;
 }
 
